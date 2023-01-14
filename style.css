@@ -159,6 +159,7 @@ about css
  .what-i-do{
   margin-right: 70px;
   margin-left: 70px;
+  margin-top: 80px;
  }
 
  
@@ -187,6 +188,11 @@ about css
  /*
   resume style
   */
+.section-tittle {
+  margin-top: 100px;
+  margin-bottom: 60px;
+}
+
 .resume-container{
   display: flex;
   gap:25px;
