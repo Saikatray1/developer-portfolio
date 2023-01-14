@@ -188,10 +188,15 @@ about css
  /*
   resume style
   */
-.section-tittle {
+.resume {
+  margin-left: 100px;
+  margin-right: 50px;
+}
+
+ .section-tittle {
   margin-top: 100px;
   margin-bottom: 60px;
-}
+} 
 
 .resume-container{
   display: flex;
@@ -268,4 +273,106 @@ input{
   color: #474747;
   margin-bottom: 24px;
  
+}
+
+/* responsive style start */
+
+@media screen and (max-width: 576px) {
+
+/* header banner responsive css style */
+.header{
+  background-image: none;
+}
+
+nav {
+  flex-direction: column;
+  gap: 20px;
+  padding: 10px 28px;
+}
+
+nav ul{
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.banner{
+  flex-direction: column;
+  margin: 0 20px;
+
+}
+.banner img {
+  width: 100%;
+}
+
+
+ /* resume css */
+.resume {
+  margin-left: 10px;
+  margin-right: 20px;
+}
+
+ 
+ .resume-container {
+  flex-direction: column;
+  padding-left: 15px;
+ 
+ }
+
+ /* what i  do responsive css */
+.what-i-do {
+  margin-left: 10px;
+  text-align: left;
+}
+
+.section-description {
+
+
+
+}
+
+ .skill-container {
+  flex-direction: column;
+  gap: 25px;
+  margin-top: 50px;
+  
+  
+ }
+
+
+/* about me css */
+
+ .about-info-container {
+  flex-direction: column;
+  padding: 10px;
+  margin-left: 180px;
+  margin-right: 50px;
+ }
+ .about-me {
+  margin-top: 130px;
+  background-color: #FFF8F3;
+  border-radius: 10px;
+  padding: 20px 10px;
+}
+/* contact responsive css */
+
+.contact {
+  flex-direction: column;
+  gap: 1px;
+  padding: 20px;
+}
+
+.contact input[type="text"], input[type="email"], textarea {
+  padding: 10px;
+}
+
+
+}
+
+@media screen and (min-width: 577px) and (max-width: 992) {
+  
+}
+
+.hide{
+  display: none;
 }
